@@ -1,0 +1,29 @@
+.root {
+    -fx-font-family: 'Orbitron';
+}
+
+.text-field, .combo-box, .radio-button {
+    -fx-font-size: 14px;
+}
+
+.label {
+    -fx-text-fill: white;
+}
+
+.combo-box .list-cell {
+    -fx-text-fill: white;
+    -fx-background-color: rgba(50, 50, 80, 0.9);
+}
+
+.combo-box-popup .list-view {
+    -fx-background-color: rgba(50, 50, 80, 0.9);
+}
+
+.combo-box-popup .list-cell:filled:hover {
+    -fx-background-color: rgba(70, 70, 110, 0.9);
+}
+
+.radio-button .dot {
+    -fx-mark-highlight-color: #4CAF50;
+    -fx-mark-color: #4CAF50;
+}

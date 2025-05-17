@@ -1,0 +1,31 @@
+.custom-dialog {
+    -fx-background-color: rgba(40, 40, 70, 0.95);
+    -fx-background-radius: 10;
+    -fx-border-color: rgba(255, 255, 255, 0.2);
+    -fx-border-radius: 10;
+    -fx-border-width: 1;
+    -fx-padding: 20;
+}
+
+.custom-dialog .header-panel {
+    -fx-background-color: transparent;
+}
+
+.custom-dialog .content.label {
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-family: 'Orbitron';
+}
+
+.custom-dialog .button {
+    -fx-background-color: rgba(76, 175, 80, 0.7);
+    -fx-text-fill: white;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 12px;
+    -fx-background-radius: 5;
+    -fx-padding: 5 15 5 15;
+}
+
+.custom-dialog .button:hover {
+    -fx-background-color: rgba(76, 175, 80, 0.9);
+}
